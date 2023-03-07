@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">WorkoutGuide</string>
+    <string name="todo1">TODO</string>
+    <string name="workout_guide3">WORKOUT_GUIDE</string>
+    <string name="todo8">TODO</string>
+    <string name="workout_guide8">WORKOUT GUIDE</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WorkOut Guide</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Workouts</string>
+    <string name="menu_gallery">DietPlans</string>
+    <string name="menu_slideshow">AboutUs</string>
+    <string name="menu_logout">Logout</string>
+    <string name="contact_98741584505">Contact:- 9874158450</string>
+    <string name="version_1_0_15">Version:-1.0.1</string>
+    <string name="thank_you_for_joining_us5">THANK YOU FOR JOINING US</string>
+    <string name="textview5">TextView</string>
+    <string name="a_project_by_gc5">A Project By GC</string>
+
+
+
+    <string name="g1">■ 1 glass milk with 2 teaspoons of,\n
+                    skimmed milk powder, 2 whole \n
+                    ripe bananas, and 5 to 10 pieces \n
+                    of overnight soaked almonds\n
+                    with peel.
+    </string>
+    <string name="g2">■ 1 cup of tea or cappuccino\n
+                     loaded with sugar and full-fat\n
+                     milk, white portions of 2 eggs,\n
+                     and 6 to 7 pieces of overnight\n
+                     soaked almonds with peel.\n
+    </string>
+    <string name="g3">■ 6 slices of omelet toasted bread
+                    (use 2 eggs for this).
+    </string>
+    <string name="g4">■ 2 plain chapattis and 1 small bowl\n
+                        of vegetables.
+    </string>
+    <string name="g5">■ 2 masala dosa, 2 cups of sambar,\n
+                        and 1 spoon of chutney.\n
+    </string>
+    <string name="g6">■ 1 glass of fresh juice and 1 plate\n
+                        of salad with 2 boiled potatoes.
+    </string>
+    <string name="g7">■ 1 fresh whole seasonal fruit \n
+                        (of your choice) and 1 glass of \n
+                        buttermilk/plain lassi/coconut \n
+                        water.
+    </string>
+    <string name="g8">■ 1 cup of green tea, 2 to 3\n
+                         multi-grain biscuits, and 1 fresh\n
+                         fruit (apple or orange).\n
+    </string>
+    <string name="g9">■ 2 small bowls of plain rice, 2 \n
+                         medium-sized chapattis with \n
+                         ghee, 1 small bowl of legumes/ \n
+                         dal(mung, chana, masoor, or \n
+                         soybean), 2 small bowls of wet \n
+                         vegetable curry (as per your \n
+                         choice), 2 medium-sized pieces of \n
+                         chicken/fish, 1 plate of green \n
+                         salad and 1 small bowl of sweet \n
+                         curd/raita
+    </string>
+    <string name="g10">■ 1 small bowl of pulav/biriyani \n
+                        (non-veg), 1 small bowl of egg/ \n
+                        paneer, 1 small bowl of \n
+                        vegetables (as per your choice), \n
+                        and 1 medium-sized bowl of \n
+                        chicken soup/sprout salad.\n
+    </string>
+    <string name="g11">■ 1 cup coffee/tea and 4 cookies
+    </string>
+    <string name="g12">■ 1 glass banana shake and 2 biscuits.
+    </string>
+    <string name="g13">■ 1 fresh seasonal fruit and a few nuts.\n
+    </string>
+    <string name="g14">■  medium-sized chapattis\n
+                        ghee, 1 small bowl of \n
+                        legumes/dal (moong, chana, \n
+                        masoor, or soybean), 1 \n
+                        small bowl of dry \n
+                        vegetable curry(as per \n
+                        your choice), 1 small \n
+                        bowl of chicken/fish,and \n
+                        1 small bowl of curd/ \n
+                        any other sweet dish \n
+    </string>
+    <string name="g15">■ 1 small bowl of brown rice/2\n
+                        whole wheat chapattis, 1 small\n
+                        bowl of stir-fried vegetables\n
+                        with baked potato, and 1 small\n
+                        piece of lean chicken/fish.\n
+    </string>
+    <string name="g16">■ 1 glass full of warm milk with 1\n
+                         teaspoon of raw honey and a\n
+                         pinch of turmeric added to it.\n
+    </string>
+    <string name="g17">■ 1 cup of skimmed milk with nuts.\n
+    </string>
+
+
+
+
+    <string name="l1">■ 1 fruit of your choice + 3-4 mixed\n
+            seeds such as watermelon, flax,\n
+            sesame, melon to name a few.
+
+    </string>
+    <string name="l2">■ 10 Spirulina or green leafy veggie\n
+            juice + 1 fruit of your choice.\n
+
+    </string>
+    <string name="l3">■2 idlis with sambhar
+
+    </string>
+    <string name="l4">■2 egg omelet with 2 whole--*grain\n
+            bread slices.
+    </string>
+    <string name="l5">■1 bowl vegetable sprout poha with\n
+            chutney.\n
+    </string>
+    <string name="l6">■ 1 fruit of your choice.
+    </string>
+    <string name="l7">■ 1 bowl cut fresh fruits of choice.
+    </string>
+    <string name="l8">■ 3-4 dry fruits.\n
+    </string>
+    <string name="l9">■2 multigrain roti + 1 bowl veg or\n
+            non-veg (seafood, fish, chicken)\n
+            subji of choice + 1 bowl of thick\n
+            dal.
+
+    </string>
+    <string name="l10">■ 2 medium vegetable uthappam \n
+             with sambhar.\n
+
+    </string>
+    <string name="l11">■ 1 fruit of your choice + 1\n
+            cup green tea.
+
+    </string>
+    <string name="l12">■ 1 cup spiced boiled corn +\n
+            1 cup coffee, tea or green tea
+
+    </string>
+    <string name="l13">■ Til or peanut chikki with 1\n
+            cup spirulina and mixed veggie\n
+            juice.\n
+
+    </string>
+    <string name="l14">■  vegetable pulao + 1 bowl\n
+            vegetable raita + 1 bowl\n
+            vegetable or chicken salad\n
+            of choice.
+
+    </string>
+    <string name="l15">■ 1 bowl vegetable and mixed\n
+            seeds salad + 2 multigrain roti\n
+            + 1 non-veg subji or dal of\n
+            your choice.\n
+
+    </string>
+    <string name="l16">■ 1 glass of whey protein shake\n
+
+    </string>
+    <string name="l17">■ 1 glass warm milk.\n
+
+    </string>
+</resources>

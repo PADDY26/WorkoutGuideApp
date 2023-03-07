@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 5:00 am. To 6:00 am. ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+                android:id="@+id/txt_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="Before Breakfast :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/g1"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mate_sc"
+                    android:textSize="22.5dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="180dp"
+                    android:text="@string/g2"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+                android:id="@+id/txt_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 7:0 am. To 9:00 am. ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+                android:id="@+id/txt_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="Breakfast :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g3"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="100dp"
+                    android:text="@string/g4"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+                <TextView
+                    android:id="@+id/g5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="185dp"
+                    android:text="@string/g5"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 10:00 am To 11:00 am ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text=" Mid-Morning Snack (after Breakfast) :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g6"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="100dp"
+                    android:text="@string/g7"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="220dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+                <TextView
+                    android:id="@+id/g8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="238dp"
+                    android:text="@string/g8"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 12:30 am. To 1:30 am. ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="Lunch :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g9"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="330dp"
+                    android:text="@string/g10"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 4:30 am. To 5:30 am. ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text=" Afternoon / Evening Snack:"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g11"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="80dp"
+                    android:text="@string/g12"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="145dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+                <TextView
+                    android:id="@+id/g13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="170dp"
+                    android:text="@string/g13"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 8:00 am. To 9:00 am. ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="Dinner :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g14"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="330dp"
+                    android:text="@string/g15"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="─── 10:30 am To 11:00 am ───"
+                android:textSize="21dp"
+                android:textColor="#db9407"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text=" ALate Night Snack :"
+                android:textSize="20dp"
+                android:textColor="#eda81f"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#595856"
+                android:filterTouchesWhenObscured="true">
+
+
+                <TextView
+                    android:id="@+id/g16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:gravity="start|top"
+                    android:text="@string/g16"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="95dp"
+                    android:fontFamily="@font/aclonica"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#d95102"
+                    android:textSize="18dp"
+                    android:text="OR"></TextView>
+
+
+                <TextView
+                    android:id="@+id/g17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/mate_sc"
+                    android:paddingTop="115dp"
+                    android:text="@string/g17"
+                    android:textColor="@color/white"
+                    android:textSize="22.5dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#d13c26" />
+
+    </LinearLayout>
+</ScrollView>

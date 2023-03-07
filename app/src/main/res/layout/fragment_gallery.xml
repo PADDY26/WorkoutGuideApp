@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212120"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_dietplan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="───── DIET PLANS ─────"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textColor="#db9407"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/diet">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="7dp"
+                android:text="FOR"
+                android:textColor="#F5F6F5"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="79dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="7dp"
+                android:text="WEIGHT GAIN"
+                android:textColor="#F5F6F5"
+                android:textSize="26sp" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text=""
+                android:layout_marginRight="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/diet1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="7dp"
+                android:text="FOR"
+                android:textColor="#F5F6F5"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="79dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="7dp"
+                android:text="WEIGHT LOSS"
+                android:textColor="#F5F6F5"
+                android:textSize="26sp" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text=""
+                android:layout_marginRight="0dp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

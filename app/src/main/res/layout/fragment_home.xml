@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212120"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_begi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="BEGINNER"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="#db9407"
+            android:textSize="25sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/abs">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ABS Beginner"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/beg" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/chest1"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="CHEST Beginner"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/beg" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/arm1"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ARM Beginner"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/beg" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/leg1"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="LEG Beginner"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/beg" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/back1"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="186dp"
+                android:layout_height="93dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="BACK AND SHOULDER Beginner"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/beg" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@color/purple_700" />
+
+        <TextView
+            android:id="@+id/txt_intermediate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="INTERMEDIATE"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="#db9407"
+            android:textSize="25sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/abs2"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ABS Intermediate"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/inte" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/chest2">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="CHEST Intermediate"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/inte" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/arm2"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ARM Intermediate"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/inte" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/leg2"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="LEG Intermediate"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/inte" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/back2"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="BACK AND SHOULDER Intermediate"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/inte" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="@color/purple_700" />
+
+        <TextView
+            android:id="@+id/txt_Advance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="ADVANCE"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="#db9407"
+            android:textSize="25sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/abs3"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ABS Advance"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/adv" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/chest3"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="CHEST Advance"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/adv" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/arm3"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="ARMS Advance"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/adv" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/leg3"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="LEG Advance"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/adv" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/back3"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="10dp"
+                android:text="BACK AND SHOULDER Advance"
+                android:textColor="#F5F6F5"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/adv" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="0dp"
+                android:background="#0000"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#0000"
+            android:text="" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
